@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Multi_client_send_answer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Multi_client_send_answer.cpp
+d:\servercilent\multi_client_send_answer\multi_client_send_answer.cpp(219): warning C4018: “<”: 有符号/无符号不匹配
+d:\servercilent\multi_client_send_answer\multi_client_send_answer.cpp(229): warning C4018: “<”: 有符号/无符号不匹配
+d:\servercilent\multi_client_send_answer\multi_client_send_answer.cpp(94): warning C4715: “Send_message”: 不是所有的控件路径都返回值
+d:\servercilent\multi_client_send_answer\multi_client_send_answer.cpp(198): warning C4715: “Recv_messege”: 不是所有的控件路径都返回值
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Debug\Multi_client_send_answer（IO）.exe) does not match the Linker's OutputFile property value (D:\ServerCilent\Multi_client_send_answer\Debug\Multi_client_send_answer（IO）.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Multi_client_send_answer.vcxproj -> D:\Debug\Multi_client_send_answer（IO）.exe
+  Multi_client_send_answer.vcxproj -> D:\ServerCilent\Multi_client_send_answer\Debug\Multi_client_send_answer（IO）.pdb (Partial PDB)
